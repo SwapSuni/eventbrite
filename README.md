@@ -1,6 +1,6 @@
 To run the frontend server : npm start
 
-To run the backend server : pythom manage.py runserver
+To run the backend server : python manage.py runserver
 
 Home Page when no user is loggedIn:
 
