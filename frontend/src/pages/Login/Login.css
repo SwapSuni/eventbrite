@@ -1,0 +1,148 @@
+.box {
+    background-image: url('https://cdn.pixabay.com/photo/2019/07/12/20/56/zumba-4333580_1280.jpg');
+    background-size: 'cover';
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.login-container {
+    background-color: rgb(252, 248, 248);
+    width: 30vw;
+    margin: 50px 0;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+    height: fit-content;
+    padding: 10px 0;
+}
+
+.main{
+    margin: 5px 22px;
+}
+
+.heading-primary{
+    color: rgb(240, 65, 1);
+}
+
+.heading-secondary{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.email{
+    margin: 20px 0px;
+    padding: 15px 15px;
+    width: 24vw;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-bottom: 25px;
+    font-size: medium;
+}
+
+.name-feild{
+    display: block;
+}
+
+.firstname, .lastname{
+    width: 24vw;
+    padding: 15px 15px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    font-size: medium;
+    margin: 10px 0;
+}
+
+.password-feild{
+    margin: 10px 0px;
+    margin-bottom: 25px;
+}
+
+.password{
+    padding: 15px 15px;
+    width: 24vw;
+    border-radius: 4px;
+    border: 1px solid grey;
+    font-size: medium;
+}
+
+.forgot-password{
+    font-size: small;
+    font-weight: 600;
+    color: purple;
+    margin-top: 3px;
+}
+
+.guideline{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.checkbox{
+    margin-left: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox:hover{
+    background-color: grey;
+}
+
+.highlight-text{
+    text-decoration: underline;
+    color: purple;
+    font-size:small;
+}
+
+.highlight-text:hover{
+    cursor: pointer;
+}
+
+.btn{
+    margin-bottom: 25px;
+}
+
+.button{
+    margin: 20px 0;
+    padding: 15px 15px;
+    width: 26vw;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(240, 65, 1);
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(205, 56, 2);
+}
+
+.link{
+    font-weight: 400;
+}
+
+.inner-feild{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit{
+    font-weight: 600;
+    color: purple;
+    text-decoration: none;
+    margin: 20px 0;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(252, 248, 248);
+}
+
+.edit:hover{
+    cursor: pointer;
+}
