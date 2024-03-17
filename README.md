@@ -1,3 +1,5 @@
+The functionalities are still incomplete, enjoy the frontend created:
+
 To run the frontend server : npm start
 
 To run the backend server : python manage.py runserver
